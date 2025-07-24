@@ -1,0 +1,25 @@
+ body{
+    background-color: green;
+ }
+    .hero {
+      background: #034d97;
+      padding: 60px 0;
+    }
+    .hero h1 {
+      font-weight: bolder;
+      color: white;
+    }
+    .hero a{
+        background-color: #000000;
+    }
+    .service-card:hover {
+      box-shadow: 0 4px 12px rgba(131, 12, 12, 0.1);
+      transform: translateY(-5px);
+      transition: all 0.3s ease-in-out;
+    }
+    footer {
+      background: #343a40;
+      color: #fff;
+      padding: 20px 0;
+    }
+  
