@@ -1,11 +1,16 @@
  body{
     background-color: green;
  }
+ 
     .hero {
       background: #034d97;
       padding: 60px 0;
     }
     .hero h1 {
+      font-weight: bolder;
+      color: white;
+    }
+    .hero p {
       font-weight: bolder;
       color: white;
     }

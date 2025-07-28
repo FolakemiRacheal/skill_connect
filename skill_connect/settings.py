@@ -126,6 +126,22 @@ REST_FRAMEWORK = {
 }
 
 
+
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+        "rest_framework.authentication.TokenAuthentication",
+    ),
+    # "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    # "DEFAULT_PAGINATION_CLASS": "app.utils.functools.StandardResultsSetPagination10",
+    # "PAGE_SIZE": int(os.getenv("PAGE_SIZE", 100)),
+    # "PAGE_SIZE_PARAM": os.getenv("PAGE_SIZE_PARAM", "page_size"),
+    # # Total number of rows on an Excel Worksheet
+    # "MAX_PAGE_SIZE": int(os.getenv("MAX_PAGE_SIZE", 1048574)),
+}
+
+
+
 STATIC_URL = 'static/'
 
 # Default primary key field type
